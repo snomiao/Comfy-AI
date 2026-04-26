@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Comfy AI Terminal",
+  "version": "0.1.0",
+  "description": "Floating xterm.js terminal dialog on any page",
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/extension/content.ts"],
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "toggle-terminal": {
+      "suggested_key": { "default": "Ctrl+Shift+Y" },
+      "description": "Toggle terminal panel"
+    }
+  },
+  "action": {
+    "default_title": "Toggle Comfy AI Terminal"
+  },
+  "background": {
+    "service_worker": "src/extension/background.ts"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
