@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import { crx } from "@crxjs/vite-plugin";
-import manifest from "./src/extension/manifest.json";
+import manifest from "./ts/extension/manifest.json";
 
 export default defineConfig({
   plugins: [crx({ manifest })],

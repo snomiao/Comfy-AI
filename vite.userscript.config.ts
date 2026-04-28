@@ -4,7 +4,7 @@ import monkey from "vite-plugin-monkey";
 export default defineConfig({
   plugins: [
     monkey({
-      entry: "src/userscript/index.ts",
+      entry: "ts/userscript/index.ts",
       userscript: {
         name: "Comfy AI Terminal",
         namespace: "https://comfy.org",
