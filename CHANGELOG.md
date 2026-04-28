@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/snomiao/Comfy-AI/compare/v1.0.1...v1.1.0) (2026-04-28)
+
+### Features
+
+* show help on fail in CLI ([e95bef5](https://github.com/snomiao/Comfy-AI/commit/e95bef5a0463748b6169c750fe65566abf246e7b))
+
 ## [1.0.1](https://github.com/snomiao/Comfy-AI/compare/v1.0.0...v1.0.1) (2026-04-28)
 
 ## 1.0.0 (2026-04-28)
