@@ -10,8 +10,7 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,7 @@
     "dev:userscript": "vite --config vite.userscript.config.ts",
     "build:extension": "vite build --config vite.extension.config.ts",
     "build:userscript": "vite build --config vite.userscript.config.ts",
-    "build:cli": "bun build ts/cli.ts --outfile dist/cli.js --target bun --sourcemap=none",
+    "build:cli": "bun build ts/cli.ts --outfile dist/cli.js --target bun --sourcemap=none && chmod +x dist/cli.js",
     "build": "bun run build:cli && bun run build:extension && bun run build:userscript"
   },
   "devDependencies": {
