@@ -34,4 +34,5 @@ yargs(hideBin(process.argv))
   .strict()
   .help()
   .version()
+  .showHelpOnFail(true)
   .parse();
