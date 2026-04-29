@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/snomiao/Comfy-AI/compare/v1.1.0...v1.2.0) (2026-04-29)
+
+### Features
+
+* WS-localhost bridge daemon + typed CLI protocol ([72d2268](https://github.com/snomiao/Comfy-AI/commit/72d2268923a65c95d9dbb44e4dcf577b4d84a8cd))
+
 ## [1.1.0](https://github.com/snomiao/Comfy-AI/compare/v1.0.1...v1.1.0) (2026-04-28)
 
 ### Features
