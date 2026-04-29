@@ -4,16 +4,13 @@
   "description": "Comfy AI terminal — floating xterm.js panel (Chrome extension, userscript) + WebSocket PTY server CLI",
   "type": "module",
   "bin": {
-    "comfy-ai": "./ts/cli.ts"
+    "comfy-ai": "./dist/cli.js"
   },
   "files": [
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "bin": {
-      "comfy-ai": "./dist/cli.js"
-    }
+    "access": "public"
   },
   "repository": {
     "type": "git",
