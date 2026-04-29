@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/snomiao/Comfy-AI/compare/v1.2.0...v1.2.1) (2026-04-29)
+
+### Bug Fixes
+
+* restore full CLI implementation lost during rebase conflict resolution ([bc24d41](https://github.com/snomiao/Comfy-AI/commit/bc24d41df8f578a8a85222b9452ae26838528010))
+
 ## [1.2.0](https://github.com/snomiao/Comfy-AI/compare/v1.1.0...v1.2.0) (2026-04-29)
 
 ### Features
