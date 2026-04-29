@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/snomiao/Comfy-AI/compare/v1.2.1...v1.2.2) (2026-04-29)
+
+### Bug Fixes
+
+* use dist/cli.js as bin entry for npm publish ([012d445](https://github.com/snomiao/Comfy-AI/commit/012d445bb34b2410fcff068640f8e31e63d96993))
+
 ## [1.2.1](https://github.com/snomiao/Comfy-AI/compare/v1.2.0...v1.2.1) (2026-04-29)
 
 ### Bug Fixes

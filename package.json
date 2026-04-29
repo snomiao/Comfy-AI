@@ -1,6 +1,6 @@
 {
   "name": "comfy-ai",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Comfy AI terminal — floating xterm.js panel (Chrome extension, userscript) + WebSocket PTY server CLI",
   "type": "module",
   "bin": {
